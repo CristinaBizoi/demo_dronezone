@@ -76,7 +76,6 @@
        </div>
    </div>
    </div>
-   <p> </p>
    <div class="section-3">
    <div class="container">
         <div class="section-3-items"> 
