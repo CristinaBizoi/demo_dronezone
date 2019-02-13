@@ -1,3 +1,8 @@
+*,html, body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
     padding: 0;
     margin: 0;
@@ -6,9 +11,16 @@ body{
 }
 .container{
     position: relative;
-    width: 80%;
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px;
     margin: 0 auto;
     display: block;
+}
+.row{
+    width: 100%;
+    position: relative;
+    float: left;
 }
 .navbar{
     position: relative;
@@ -62,8 +74,6 @@ body{
     display: inline;
     margin-left: 4%;
     box-sizing: border-box;
-
-    
 }
 .header{
     position: relative;
@@ -90,7 +100,7 @@ a{
     margin-top: 30px;
     font-size: 13px;
     line-height: 25px;
-    color: #e35f3c;
+    color: white;
 }
 .slogan-buttons
 {
@@ -101,11 +111,11 @@ a{
 }
 .slogan-buttons>a{
     position: relative;
-    /* display: block; */
+    display: inline-block; 
     border-radius: 25px;
     /* height: 50px; */
     width: 40%;
-    padding: 18px 55px;
+    padding: 18px 0px;
 
     
 }
@@ -157,11 +167,14 @@ a{
     position: relative;
     display: block;
     float:left;
-    width: 21%;
+    width: 25%;
     padding: 2%;
     text-align: center;
     padding-bottom: 95px;
     color: #5e6372;
+}
+.col-25>h3{
+    margin-top: 10px;
 }
 .heading-img{
     height: 100px;
@@ -169,7 +182,7 @@ a{
 .heading-img>img{
     height: 100%;
     display: inline-block;
-    vertical-align: middle;s
+    vertical-align: middle;
 
 }
 .button-blue{
@@ -227,6 +240,7 @@ a{
 .descriere-sectiune-3{
     color: #5e6372;
     text-align: left;
+    padding-top: 30px;
 }
 .col{
     display: inline-block;
@@ -255,14 +269,15 @@ a{
 .number{
     border: 1px solid #d4d9e7;
     border-radius: 50%;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     clear:left;
     color: #3f4e76;
     font-weight: 700;
      position: relative;
      float: left;
-     width: 5%; 
+     width: 50px; 
+     height: 50px;
      margin-left: 60px;
      margin-top: 15px;
 
@@ -287,7 +302,7 @@ a{
     background-color: #f6f6f6;
     width: 100%;
     background-image: url("../imgs/foto top.jpg");
-    background-size: 50% 100%;
+    background-position: left top;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -301,6 +316,7 @@ a{
     padding-bottom: 180px;
     padding-left: 60px;
     box-sizing: border-box;
+    background-color: #f6f6f6;
    
 
 }
@@ -329,7 +345,6 @@ a{
     width: 100%;
     background-color: #f6f6f6;
     background-image: url("../imgs/foto bottom.jpg");
-    background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: right center;
     overflow: hidden;
@@ -352,6 +367,7 @@ a{
     text-align: left;
     padding-right: 110px;
     padding-bottom: 60px;
+    padding-top: 20px;
 }
 .section-6{
     background-image: url("../imgs/newsletter_bg.jpg");
