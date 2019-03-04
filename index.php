@@ -4,7 +4,8 @@
     <meta charset = "UTF-8">
     <meta name = "viewpoint" content = "width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tutorial HTML CSS</title>
+    <meta author="Cristina Bizoi">
+    <title>Dronezone</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">  
@@ -43,7 +44,7 @@
             <!-- <div class="row"> -->
                 <div class="col-25">
                     <div class="heading-img">
-                        <img src="./public/imgs/drone.jpg" alt="From air">
+                        <img src="./public/imgs/drone.gif" alt="From air">
                     </div>
                     <h3 class="gradient"> From air </h3>
                     <p> llentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. </p>
@@ -120,6 +121,7 @@
             </div>
         </div>
    </div>
+</div>
    <div class="section-5">
    <div class="container">
    <div class="section-5-items"> 
@@ -131,7 +133,6 @@
         </div>
     </div>
     </div>
-   </div>
    <div class="section-6">
    <div class="section-6-items"> 
        <div class="container">

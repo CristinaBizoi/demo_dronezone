@@ -427,7 +427,7 @@ input[type=email]{
         width: 90%
     }
     .send-button{
-        width: 10%;
+        width: 10% !important;
     }
     .titlu, .section-3-items > h2{
         font-size: 24px;
@@ -477,9 +477,7 @@ input[type=email]{
         margin-left: 0px;
         margin-top: 0px;
     }
-    .section-3-items{
-        width: 100%;
-    }
+
     .descriereitem{
         width:60%;
     }
@@ -492,5 +490,8 @@ input[type=email]{
 @media only screen and (max-width: 990px) {
     .section-3{
         background-image: none;
+    }
+    .section-3-items{
+        width: 100%;
     }
 }
