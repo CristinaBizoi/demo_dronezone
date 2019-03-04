@@ -40,10 +40,10 @@
    <div class="section-2">
    <div class="section-2-items">
        <div class="container">
-            <div class="row">
+            <!-- <div class="row"> -->
                 <div class="col-25">
                     <div class="heading-img">
-                        <img src="./public/imgs/drone.gif" alt="From air">
+                        <img src="./public/imgs/drone.jpg" alt="From air">
                     </div>
                     <h3 class="gradient"> From air </h3>
                     <p> llentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. </p>
@@ -69,7 +69,7 @@
                     <h3 class="gradient"> Long range </h3>
                     <p> llentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
                 </div>
-            </div>
+            <!-- </div> -->
             <div class="row text-centered">
                 <a href="#" class="button-blue">Ask for price </a>
             </div>
