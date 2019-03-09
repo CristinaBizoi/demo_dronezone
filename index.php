@@ -8,7 +8,9 @@
     <title>Dronezone</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">  
+    <script src="./js/scripts.js"></script>
 </head>
 <body>
    <div class="header">
@@ -17,7 +19,7 @@
             <div class="logo">
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
-            <div class="meniu">
+            <div class="meniu-lg-display">
                 <ul>
                     <li><a href="#" class="with-style">Home</a></li>
                     <li><a href="#" class="with-style">About</a></li>
@@ -27,6 +29,7 @@
                     <li><a href="#" class="with-border" >Contact</a></li>
                 </ul>
             </div>
+            <div class="meniu-md-display"><i class="fas fa-bars" id="meniu-hamburger"></i> </div>
         </div>
         <div class= "slogan">
             <h1>Film your event with us!</h1>

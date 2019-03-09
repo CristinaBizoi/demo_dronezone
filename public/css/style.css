@@ -46,13 +46,18 @@ body{
 .logo-light{
     font-weight: 300;
 }
-.meniu{
+.meniu-lg-display{
     position: relative;
     display: block;
     float: right;
     font-size: 13px;
     width: 50%;
 
+}
+.meniu-md-display{
+    position: relative;
+    float: right;
+    text-align: right;
 }
 .with-border{
   
@@ -71,7 +76,7 @@ body{
     padding-bottom: 2px;
     /* font-size: 120%; */
 }
-.meniu>ul>li{
+.meniu-lg-display>ul>li{
     display: inline;
     margin-left: 4%;
     box-sizing: border-box;
@@ -412,13 +417,6 @@ input[type=email]{
     background-image: url("../imgs/map.jpg");
 }
 @media only screen and (max-width: 480px){
-    
-    .slogan, .slogan-buttons, .slogan-buttons>a,  .right-button, .watch-button{
-        width: 100%;
-    }
-    .watch-button{
-        top: -70px;
-    }
     .descriereitem{
         width: 60%;
     }
@@ -434,14 +432,17 @@ input[type=email]{
     }
 }
 @media only screen and (max-width: 600px) {
+    .slogan, .slogan-buttons, .slogan-buttons>a,  .right-button, .watch-button{
+        width: 100%;
+    }
     .header{
         height: 780px;
     }
-    .logo, .slogan, .watch-button, .right-button, .col-25, .col-50, .section-4-items, .section-5-items {
+    .slogan, .watch-button, .right-button, .col-25, .col-50, .section-4-items, .section-5-items {
         width: 100%;
     }
     .watch-button{
-        margin-top: 100px;
+        margin-top: 30px;
     }
     .section-4{
         background-image: none;
@@ -469,7 +470,11 @@ input[type=email]{
     }
 }
 @media only screen and (max-width: 768px){
+    .section-5, .section-4{
+        background-image: none;
+    }
     .section-5-items, .section-4-items{
+        width: 100%;
         padding-bottom: 70px;
         padding-top: 40px;
     }
@@ -477,7 +482,9 @@ input[type=email]{
         margin-left: 0px;
         margin-top: 0px;
     }
-
+    .section-5, .section-5-items{
+        background-color: white;
+    }
     .descriereitem{
         width:60%;
     }
@@ -487,11 +494,32 @@ input[type=email]{
         width: 25%;
     }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991.98px) {
     .section-3{
         background-image: none;
     }
     .section-3-items{
         width: 100%;
+    }
+    .meniu-lg-display{
+        display: none;
+    }
+    .logo{
+        width: 65%;
+    }
+    .meniu-md-display{
+        width: 30%;
+        /* text-align: right; */
+    }
+    .slogan{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .meniu-md-display{
+        display: none;
+    }
+    .meniu-lg-display{
+        width: 60%;
     }
 }
