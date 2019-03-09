@@ -1,3 +1,6 @@
+<!-- 
+    adauga asta
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
 <!DOCTYPE html>
 <html lang="eng">
 <head>
@@ -10,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">  
-    <script src="./js/scripts.js"></script>
+    
 </head>
 <body>
    <div class="header">
@@ -19,6 +22,7 @@
             <div class="logo">
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
+            <div class="meniu-md-display" id="meniu-hamburger"><i class="fas fa-bars" ></i> </div>
             <div class="meniu-lg-display">
                 <ul>
                     <li><a href="#" class="with-style">Home</a></li>
@@ -29,7 +33,7 @@
                     <li><a href="#" class="with-border" >Contact</a></li>
                 </ul>
             </div>
-            <div class="meniu-md-display"><i class="fas fa-bars" id="meniu-hamburger"></i> </div>
+            
         </div>
         <div class= "slogan">
             <h1>Film your event with us!</h1>
@@ -150,5 +154,7 @@
    </div>
    <div class="section-7">
    </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="./public/js/scripts.js"></script>
 </body>
 </html>

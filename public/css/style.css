@@ -55,6 +55,7 @@ body{
 
 }
 .meniu-md-display{
+    display: none;
     position: relative;
     float: right;
     text-align: right;
@@ -441,6 +442,9 @@ input[type=email]{
     .slogan, .watch-button, .right-button, .col-25, .col-50, .section-4-items, .section-5-items {
         width: 100%;
     }
+    .slogan{
+        margin-top: 90px;
+    }
     .watch-button{
         margin-top: 30px;
     }
@@ -508,17 +512,28 @@ input[type=email]{
         width: 65%;
     }
     .meniu-md-display{
+        display: block;
         width: 30%;
         /* text-align: right; */
     }
+    .meniu-lg-display>ul>li{
+        display: inherit;
+        text-align: center; 
+        padding: 10px;
+    }
+    .meniu-lg-display{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background-color: white;
+    }
+
     .slogan{
         width: 70%;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .meniu-md-display{
-        display: none;
-    }
     .meniu-lg-display{
         width: 60%;
     }
