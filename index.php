@@ -22,18 +22,18 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
             <div class="logo">
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
-            <div class="meniu-md-display" id="meniu-hamburger"><i class="fas fa-bars" ></i> </div>
-            <div class="meniu-lg-display">
-                <ul>
-                    <li><a href="#" class="with-style">Home</a></li>
-                    <li><a href="#" class="with-style">About</a></li>
-                    <li><a href="#" class="with-style">Pricing</a></li>
-                    <li><a href="#" class="with-style">Our drones</a></li>
-                    <li><a href="#" class="with-style">Our relations</a></li>
-                    <li><a href="#" class="with-border" >Contact</a></li>
-                </ul>
+                <div class="meniu-lg-display overlay-content">
+                    <ul>
+                        <li><a href="#" class="with-style">Home</a></li>
+                        <li><a href="#" class="with-style">About</a></li>
+                        <li><a href="#" class="with-style">Pricing</a></li>
+                        <li><a href="#" class="with-style">Our drones</a></li>
+                        <li><a href="#" class="with-style">Our relations</a></li>
+                        <li><a href="#" class="with-border" >Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            
+            <div class="meniu-md-display" id="meniu-hamburger" ><i class="fas fa-bars" ></i> </div>
         </div>
         <div class= "slogan">
             <h1>Film your event with us!</h1>
@@ -152,9 +152,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
     </div>
     </div>
    </div>
-   <div class="section-7">
+   <div class="section-7" id="map">
    </div>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="./public/js/scripts.js"></script>
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwYnyVrzvGV0y8ChtW5aSD04580qyw_Ic&callback=initMap">
+    </script>
+
 </body>
 </html>

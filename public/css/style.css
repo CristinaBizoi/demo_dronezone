@@ -361,6 +361,9 @@ a{
     /* box-sizing: border-box; */
 
 }
+.section-5>.container, .section-6>.container{
+    padding:0;
+}
 .section-5-items{
     display:block;
     float:left;
@@ -415,19 +418,16 @@ input[type=email]{
 }
 .section-7{
     height: 550px;
-    background-image: url("../imgs/map.jpg");
+    width: 100%;
+    background-color: grey;
+    /* background-image: url("../imgs/map.jpg"); */
 }
+
 @media only screen and (max-width: 480px){
     .descriereitem{
         width: 60%;
     }
- 
-    input[type="email"]{
-        width: 90%
-    }
-    .send-button{
-        width: 10% !important;
-    }
+
     .titlu, .section-3-items > h2{
         font-size: 24px;
     }
@@ -532,9 +532,21 @@ input[type=email]{
     .slogan{
         width: 70%;
     }
+    input[type="email"]{
+        width: 90%
+    }
+    .send-button{
+        width: 10% !important;
+    }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+@media only screen and (min-width: 992px) {
     .meniu-lg-display{
         width: 60%;
+    }
+}
+@media only screen and (min-width: 990) and (max-width: 1300){
+    .section-3{
+        background-size: 30%;
     }
 }
