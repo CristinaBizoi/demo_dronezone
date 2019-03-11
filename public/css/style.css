@@ -525,14 +525,14 @@ input[type=email]{
         font-size: 30px;
     }
     .meniu-lg-display > ul > li>a{
-        color:#d5301c;
+        color:#efdbd8;
     }
     .meniu-lg-display{
         position: fixed;
         width: 100vw;
         height: 100vh;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.897);
+        background-color: rgba(219, 87, 26, 0.9);
         top: 0;
         left: 0;
         transition: 0.5s;
