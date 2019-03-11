@@ -511,6 +511,7 @@ input[type=email]{
     .logo{
         width: 65%;
     }
+    
     .meniu-md-display{
         display: block;
         width: 30%;
@@ -537,9 +538,10 @@ input[type=email]{
         left: 0;
         transition: 0.5s;
         overflow-y: hidden; 
- 
     }
-
+    .meniu-content{
+        margin-top: 60px;
+    }
     .slogan{
         width: 70%;
     }
@@ -558,6 +560,6 @@ input[type=email]{
 }
 @media only screen and (min-width: 990) and (max-width: 1300){
     .section-3{
-        background-size: 30%;
+        background-size: 30% 100%;
     }
 }

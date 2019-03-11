@@ -23,7 +23,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
                 <div class="meniu-lg-display">
-                    <ul>
+                    <ul class="meniu-content">
                         <li><a href="#" class="with-style">Home</a></li>
                         <li><a href="#" class="with-style">About</a></li>
                         <li><a href="#" class="with-style">Pricing</a></li>
