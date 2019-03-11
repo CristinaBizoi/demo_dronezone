@@ -22,7 +22,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
             <div class="logo">
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
-                <div class="meniu-lg-display overlay-content">
+                <div class="meniu-lg-display">
                     <ul>
                         <li><a href="#" class="with-style">Home</a></li>
                         <li><a href="#" class="with-style">About</a></li>
@@ -32,8 +32,9 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
                         <li><a href="#" class="with-border" >Contact</a></li>
                     </ul>
                 </div>
-            </div>
             <div class="meniu-md-display" id="meniu-hamburger" ><i class="fas fa-bars" ></i> </div>
+            </div>
+            
         </div>
         <div class= "slogan">
             <h1>Film your event with us!</h1>
