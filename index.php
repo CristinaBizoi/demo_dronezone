@@ -5,7 +5,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
 <html lang="eng">
 <head>
     <meta charset = "UTF-8">
-    <meta name = "viewpoint" content = "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta author="Cristina Bizoi">
     <title>Dronezone</title>
@@ -23,6 +23,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
                 <span class="logo-bold"> Drone</span><span class="logo-light">Zone</span> 
             </div>
                 <div class="meniu-lg-display">
+                    <span id="close-button"> <i class="fas fa-times"></i></span>
                     <ul class="meniu-content">
                         <li><a href="#" class="with-style">Home</a></li>
                         <li><a href="#" class="with-style">About</a></li>
@@ -158,7 +159,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="./public/js/scripts.js"></script>
    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwYnyVrzvGV0y8ChtW5aSD04580qyw_Ic&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGu4eEVL28bOma9DtmmCX_BrFdim2OxxM&callback=initMap">
     </script>
 
 </body>

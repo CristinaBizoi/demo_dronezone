@@ -361,7 +361,7 @@ a{
     /* box-sizing: border-box; */
 
 }
-.section-5>.container, .section-6>.container{
+.section-5>.container, .section-4>.container{
     padding:0;
 }
 .section-5-items{
@@ -422,7 +422,9 @@ input[type=email]{
     background-color: grey;
     /* background-image: url("../imgs/map.jpg"); */
 }
-
+#close-button{
+    display: none;
+}
 @media only screen and (max-width: 480px){
     .descriereitem{
         width: 60%;
@@ -466,11 +468,17 @@ input[type=email]{
     .section-3-items{
         margin-bottom:20px;
     }
+    .send-button{
+        width: 15% !important;
+    }
 } 
 
 @media only screen and (min-width: 600px) {
     .col-25{
         width: 50%;
+    }
+    .send-button{
+        width: 10% !important;
     }
 }
 @media only screen and (max-width: 768px){
@@ -515,7 +523,7 @@ input[type=email]{
     .meniu-md-display{
         display: block;
         width: 30%;
-        z-index: 2;
+        /* z-index: 2; */
         /* text-align: right; */
     }
     .meniu-lg-display>ul>li{
@@ -537,10 +545,17 @@ input[type=email]{
         top: 0;
         left: 0;
         transition: 0.5s;
-        overflow-y: hidden; 
+        overflow-y: auto; 
     }
     .meniu-content{
-        margin-top: 60px;
+        margin-top: 15%;
+    }
+    #close-button{
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 6%;
+        font-size: 25px;
     }
     .slogan{
         width: 70%;
@@ -548,9 +563,7 @@ input[type=email]{
     input[type="email"]{
         width: 90%
     }
-    .send-button{
-        width: 10% !important;
-    }
+  
 }
 
 @media only screen and (min-width: 992px) {
@@ -558,8 +571,10 @@ input[type=email]{
         width: 60%;
     }
 }
-@media only screen and (min-width: 990) and (max-width: 1300){
+@media only screen and (min-width: 990px) and (max-width: 1300px){
     .section-3{
-        background-size: 30% 100%;
+        background-size: 40% 40%;
+        background-position: right bottom;
     }
+
 }
