@@ -156,6 +156,11 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
    </div>
    <div class="section-7" id="map">
    </div>
+   <div class="footer">
+    Developed by <span class="gradient logo-bold">Cristina Bizoi </span>| 
+    Design by <span class="gradient"> </span>|
+    @ 2019
+   </div>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="./public/js/scripts.js"></script>
    <script async defer

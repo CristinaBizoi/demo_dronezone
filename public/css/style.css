@@ -425,6 +425,12 @@ input[type=email]{
 #close-button{
     display: none;
 }
+.footer{
+    width: 100wv;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 30px 15px;
+}
 @media only screen and (max-width: 480px){
     .descriereitem{
         width: 60%;
@@ -446,6 +452,9 @@ input[type=email]{
     }
     .slogan{
         margin-top: 90px;
+    }
+    .slogan>h1{
+        line-height: 35px;
     }
     .watch-button{
         margin-top: 30px;
