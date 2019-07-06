@@ -13,7 +13,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">  
-    
+    <link rel="icon" type="image/png" href="./public/imgs/logo.png">
 </head>
 <body>
    <div class="header">
@@ -41,8 +41,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
             <h1>Film your event with us!</h1>
             <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.Nunc vel nibh tempor, pharetra lectus congue, luctus orci.</p>
             <div class="slogan-buttons">
-                <a href="a" class="right-button">Ask for price</a> 
-                <a href="a" class="watch-button"><i class="fa fa-play"></i>Watch videos</a>     
+                <a href="#" class="right-button">Ask for price</a> 
+                <a href="#" class="watch-button"><i class="fa fa-play"></i>Watch videos</a>     
             </div>
         </div>
     </div>
@@ -157,9 +157,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
    <div class="section-7" id="map">
    </div>
    <div class="footer">
-    Developed by <span class="gradient logo-bold">Cristina Bizoi </span>| 
-    Design by <span class="gradient"> </span>|
-    @ 2019
+    Developed by <a href="https://cristinabizoi.ro"> <span class="gradient logo-bold">Cristina Bizoi </span></a>©2019 |
+    Design by <a href="https://symu.co/"> <span class="gradient"> Symu.co </span>|</a>
    </div>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="./public/js/scripts.js"></script>

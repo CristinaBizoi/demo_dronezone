@@ -187,13 +187,18 @@ a{
 }
 .heading-img{
     height: 100px;
+    position: relative;
 }
 .heading-img>img{
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle;
-
+  
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
+
 .button-blue{
     text-align: center;
     background-color: #28479a;
@@ -265,7 +270,7 @@ a{
 .right{
     position: relative;
     float: right;
-    display: inline-block;
+    display: block;
 }
 .poza{
     background-image: url("../imgs/bg.jpg");
