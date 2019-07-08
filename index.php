@@ -157,7 +157,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay2 -->
    <div class="section-7" id="map">
    </div>
    <div class="footer">
-    Developed by <a href="https://cristinabizoi.ro"> <span class="gradient logo-bold">Cristina Bizoi </span></a>©2019 |
+    Developed by <a href="https://cristinabizoi.ro"> <span class="gradient logo-bold">Cristina Bizoi </span></a> © 2019 |
     Design by <a href="https://symu.co/"> <span class="gradient"> Symu.co </span>|</a>
    </div>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
